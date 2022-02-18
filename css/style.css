@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+html{
+  font-size: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.wrapper{
+  text-align: center;
+  /* max-width: 960px; */
+}
+
+#header {
+  /* max-width: 960px; */
+  margin: 60px;
+  text-align: center;
+}
+
+#site-title{
+  font-size: 64px;
+}
+#sub-title{
+  font-size: 32px;
+  color: blue;
+}
+#sec-title{
+  font-size: 48px;
+  padding: 40px;
+  text-align: center;
+
+}
+#menu ul{
+  display: flex;
+}
+#menu li{
+  padding: 30px;
+  margin:0 auto;
+  font-size: 20px;
+  margin-top: 20px;
+}
+#mainvisual{
+  margin-bottom: 80px;
+}
+#mainvisual img{
+  width: 100%;
+  max-width:1920px;
+  object-fit: cover;
+}
+#about ul{
+  padding-bottom: 30px;
+}
+
+#about li{
+  font-size: 24px;
+}
+#about p{
+  font-size: 18px;
+}
+#machine ul{
+  display: flex;
+  justify-content: space-between; 
+}
+#machine li{
+  width:100%;
+  padding-right:10px;
+  
+}
+#machine img{
+  height:300px;
+  max-width: 100%;
+}
+#weight ul{
+  display:flex;
+  justify-content: center;
+}
+#weight li{
+  padding: 10px;
+}
+  #weight img{
+    /* width:100%; */
+    height:200px;
+  }
+
+#selfweight ul{
+  display: flex;
+  justify-content: space-between;
+}
+#selfweight li{
+  margin: 10px 5px;
+  /* padding-right:10px; */
+}
+#selfweight img{
+  /* width:100%; */
+  height:300px;
+}
+
+
+#contact dd input,
+#contact dd textarea {
+  border:1px solid black;
+  width: 70%;
+  
+}
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#contact dt{
+  width: 15%;
+  margin-bottom: 10px;
+}
+#contact dd{
+  width: 85%;
+  margin-bottom:10px;
+}
+#contact .button{
+  text-align: center;
+}
+#contact .button input{
+  width: 300px;
+  background: black;
+  color: white;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 30px;
+}
+#contact .button input:hover{
+  background: white;
+  color: black;
+}
+#contact dd textarea{
+  height: 150px;
+}
+#footer {
+  font-size: 10px;
+  text-align: center;
+  background: black;
+  color:white;
+  
+
+}
+@media screen and (max-width:600px) {
+
+#site-title{
+  font-size: 44px;
+}
+#sub-title{
+  font-size: 24px;
+  color: blue;
+}
+#sec-title{
+  font-size: 24px;
+  padding: 40px;
+  text-align: center;
+}
+#menu li{
+  padding: 5px;
+  margin:0 auto;
+  font-size: 15px;
+  margin-top: 20px;
+}
+#about p{
+  text-align: left;
+}
+#machine ul{
+  flex-direction: column;
+ justify-content: space-between;
+}
+#machine img{
+  width: 50%;
+}
+
+#weight ul{
+  flex-direction:column;
+  justify-content: center;
+}
+  #weight img{
+    /* width:100%; */
+    height:200px;
+  }
+  #selfweight ul{
+    flex-direction:column;
+  }
+  #contact dd textarea{
+    height: 200px;
+  }
+  #contact dl{
+    flex-wrap: wrap;
+  }
+  #contact dt{
+    width: 100%;
+  }
+  #contact dd{
+    width: 100%;
+  }
+  
+  }
+
+  
+
+
+
